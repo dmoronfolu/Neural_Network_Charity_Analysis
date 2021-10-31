@@ -9,7 +9,9 @@ Using our understanding of Pandas and Scikit-Learn StandardScaler, we reprocesse
 Results:
 
 Data Processing
+
 •	What variable(s) are considered the target(s) for your model? In this model, we are targeting the IS_SUCCESSFUL column as we are trying to determine if applicants will be successful if funded by Alphabet Soup
+
 •	What variable(s) are considered to be the features for your model? The features for our model are: 
 o	APPLICATION_TYPE
 o	AFFILIATION
@@ -21,12 +23,14 @@ o	INCOME_AMT
 o	SPECIAL CONSIDERATIONS
 o	ASK_AMT 
 o	IS_SUCCESSFUL
+
 •	What variable(s) are neither targets nor features, and should be removed from the input data? EIN and NAME are identification columns and are neither targets nor features and were removed from the data.
 
 Compiling, Training, and Evaluating the Mode
 •	How many neurons, layers, and activation functions did you select for your neural network model, and why? There are 80 neurons in the first layer and 30 neurons in the second layer. Both hidden layers have “relu” activation function and “sigmoid” activation function was used for the outer layer. 
+
 •	Were you able to achieve the target model performance? Unfortunately, the target model did not achieve the 75% performance target.
-Model Accuracy.png
+https://github.com/dmoronfolu/Neural_Network_Charity_Analysis/blob/89111649ff1e3a843bf057c39a8004802828ab63/Model%20Accuracy.png
  
 •	What steps did you take to try and increase model performance? To increase the performance of the model, I added a third hidden layer with 20 neurons and used “sigmoid” activation function, Unfortunately, it did not improve the model performance. 
 
