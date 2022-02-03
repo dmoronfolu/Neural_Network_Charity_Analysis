@@ -30,7 +30,8 @@ Compiling, Training, and Evaluating the Mode
 •	How many neurons, layers, and activation functions did you select for your neural network model, and why? There are 80 neurons in the first layer and 30 neurons in the second layer. Both hidden layers have “relu” activation function and “sigmoid” activation function was used for the outer layer. 
 
 •	Were you able to achieve the target model performance? Unfortunately, the target model did not achieve the 75% performance target.
-https://github.com/dmoronfolu/Neural_Network_Charity_Analysis/blob/f966995535dc56bef4f2c2ff7d01a5277da23e39/Model%20Accuracy.png
+
+<img width="710" alt="Model Accuracy" src="https://user-images.githubusercontent.com/85265504/152280025-b38e01bc-5417-4185-92bb-19ff73c50944.png">
  
 •	What steps did you take to try and increase model performance? To increase the performance of the model, I added a third hidden layer with 20 neurons and used “sigmoid” activation function, Unfortunately, it did not improve the model performance. 
 
